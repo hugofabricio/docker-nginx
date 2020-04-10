@@ -8,4 +8,5 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Changing Workdir
 WORKDIR /application
 
+# Expose
 EXPOSE 8000
