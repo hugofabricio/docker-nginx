@@ -8,5 +8,5 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Changing Workdir
 WORKDIR /application
 
-# Expose
-EXPOSE 8000
+# Expose the port nginx is reachable on
+EXPOSE 80
